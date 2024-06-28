@@ -1,2 +1,2 @@
-# Projet_Insitech
-Dossier collaboratif pour la mise en production (front end) du projet Insitech
+# Projet_Ensitech
+Dossier collaboratif pour la mise en production (front end) du projet Ensitech
