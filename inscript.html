@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head lang="fr">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style_inscription.css">
+	<title>Formulaire d'inscription</title>
+</head>
+<body>
+<div class="container">
+	<header>FORMULAIRE D'INSCRIPTION PEDAGOGIQUE</header>
+	<form action="#">
+		<div class="premier_form">
+			<!--Partie des informations personnels-->
+			<div class="details_personnelle">
+				<span class="titre">Information Personnel</span>
+				<div class="champ">
+					<div class="champ_de_saisie">
+					      <label for="name">Nom</label>
+                          <input type="text" id="name" name="user_name" placeholder="Votre nom" required/>
+					</div>
+	    	     <div class="champ_de_saisie">
+                         <label for="prenom">Prénom</label>
+                         <input type="text" id="prenom" name="prenom" placeholder="Prénom" required/>
+                </div>
+                <div class="champ_de_saisie">
+      					<label for="date_naissance">Date de naissance *</label>
+                        <input type="date"  id="date_naissance" name="date_naissance" placeholder="Date de Naissance" required>     	
+                </div>
+                <div class="champ_de_saisie">
+     	               <label for="lieuNaissance">Lieu de naissance </label>
+                      <input type="text" id="lieuNaissance" name="lieu" placeholder="Lieu de Naissance" required/>
+              </div>
+             <div class="champ_de_saisie">
+     	              <label for="nationalite">Nationalité</label>
+                      <input type="text" id="nationalite" name="nationalite" placeholder="Votre nationalité" required/>
+             </div>
+             <div class="champ_de_saisie">
+        <label for="situation">Situation matrimoniale</label>
+            <select id="situation" name="situation" required>
+                <option value="">célibataire</option>
+                <option value="homme">Marié (e)</option>
+                <option value="femme">Divorcé (e)</option>
+                <option value="autre">Veuve (e)</option>
+           </select>
+         </div>
+              <div class="champ_de_saisie">
+     <label for="adresse">Adresse *</label>
+     <input type="text" id="adresse" name="adresse" required/> 
+     </div>
+          <div class="champ_de_saisie">
+	  <label for="arrondissement">Arrondissement</label>
+      <input type="text" id="arrondissement" name="arrondissement" required/>
+     </div>
+          <div class="champ_de_saisie">
+     <label for="quartier">Quartier *</label>
+     <input type="text" id="quartier" name="quartier" required/>
+     </div>
+          <div class="champ_de_saisie">
+     	<label for="telephone" >Téléphone</label>
+     	<input type="telephone" name="telephone" required>
+     </div>
+     <div class="champ_de_saisie">
+     	<label for="emai" >E-mail *</label>
+     	<input type="email" name="email" required>
+     </div>
+
+				</div>
+			</div>
+			<!--Partie Information Personnel 2-->
+		<div class="details_personnelle">
+				<span class="titre">Information Personnel</span>
+				<span class="titre">1ER CYCLE</span>
+				<span class="titre">
+               NIVEAU *</span>
+               <div class="champ">
+               	  <div champ_de_saisie>
+    <input type="checkbox" id="annee_one" name="interest" value="annee_one" checked />
+    <label for="annee_one">1ère Année</label>
+  </div>
+    <div class="champ_de_saisie">
+    <input type="checkbox" id="annee_one" name="interest" value="annee_one" checked />
+    <label for="annee_one">2ère Année</label>
+  </div>
+    <div >
+    <input type="checkbox" id="annee_one" name="interest" value="annee_one" checked />
+    <label for="annee_one">3ème Année</label>
+  </div>
+   </div>
+</div>
+<!--Parti detaile 3-->
+<div class="details_personnelle">
+				<span class="titre">FORMATION</span>
+	<div class="champ" >
+	  <div>
+      <label for="programme">Choisir Formations :</label>
+            <select id="programme" name="programme" required>
+                <option value="">Sélectionnez</option>
+                <option value="informatique">Informatique</option>
+                <option value="gestion">Gestion</option>
+                <option value="droit">Droit</option>
+                <option value="medecine">Médecine</option>
+            </select>
+  </div>	
+	</div>
+</div>
+<!--Partie 4-->
+<div class="details_personnelle">
+<span class="titre">RENSEIGNEMENTS SUPPLEMENTAIRES</span>
+<div class="champ">
+	<div class="info_pere">
+         <div class="champ_de_saisie">
+         <h1>PERE</h1>
+     	<label for="" >Nom (s) et Prénom (s)</label>
+     	<input type="text" name="" required>			
+		</div>
+         <div class="champ_de_saisie">
+    	<label for="" >Fonction (Soyez précis) *</label>
+     	<input type="text" name="" required>
+        </div>
+        <div class="champ_de_saisie">
+    	<label for="" >Lieu de travail (Soyez précis)</label>
+     	<input type="text" name="" required>
+    </div> 
+         <div class="champ_de_saisie">
+    	<label for="" >Adresse Personnelle *</label>
+     	<input type="text" name="" required>
+    </div> 
+      <div class="champ_de_saisie">
+    	<label for="" >Quartier *</label>
+     	<input type="text" name="" required>
+    </div> 
+    <div class="champ_de_saisie">
+    	<label for="" >Téléphone *</label>
+     	<input type="text" name="" required>
+    </div>
+    </div >
+    <div class="info_mere">
+    <div class="champ_de_saisie">
+         <h1>MERE</h1>
+     	<label for="" >Nom (s) et Prénom (s)</label>
+     	<input type="text" name="" required>			
+		</div>
+	     <div class="champ_de_saisie">
+    	<label for="" >Fonction (Soyez précis) *</label>
+     	<input type="text" name="" required>
+    </div>
+             <div class="champ_de_saisie">
+    	<label for="" >Lieu de travail (Soyez précis)</label>
+     	<input type="text" name="" required>
+    </div> 
+         <div class="champ_de_saisie">
+    	<label for="" >Adresse Personnelle *</label>
+     	<input type="text" name="" required>
+    </div> 
+              <div class="champ_de_saisie">
+    	<label for="" >Quartier *</label>
+     	<input type="text" name="" required>
+    </div>
+    <div class="champ_de_saisie">
+    	<label for="" >Téléphone *</label>
+     	<input type="text" name="" required>
+    </div>
+    </div>
+        	<div class="info_tuteur">
+		<div class="champ_de_saisie">
+         <h1>TUTEUR</h1>
+     	<label for="" >Nom (s) et Prénom (s)</label>
+     	<input type="text" name="" required>			
+		</div>
+         <div class="champ_de_saisie">
+    	<label for="" >Fonction (Soyez précis) *</label>
+     	<input type="text" name="" required>
+    </div>
+         <div class="champ_de_saisie">
+    	<label for="" >Lieu de travail (Soyez précis)</label>
+     	<input type="text" name="" required>
+    </div> 
+     <div class="champ_de_saisie">
+    	<label for="" >Adresse Personnelle *</label>
+     	<input type="text" name="" required>
+    </div>  
+          <div class="champ_de_saisie">
+    	<label for="" >Quartier *</label>
+     	<input type="text" name="" required>
+    </div> 
+          <div class="champ_de_saisie">
+    	<label for="" >Téléphone *</label>
+     	<input type="text" name="" required>
+    </div>    
+    </div>
+</div>
+</div>
+<!-- voici la balise pour ajouter d'autre partie--:
+<div class="details_personnelle">
+				<span class="titre">Information
+				Personnel</span>
+				<div  class="champ">
+					<div class="champ_de_saisie">
+                ici tu place le contenus
+					</div>
+				</div>
+</div>
+			-->
+		</div>
+	</form>
+</div>
+</body>
+</html>
